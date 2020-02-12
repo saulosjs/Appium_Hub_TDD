@@ -3,8 +3,6 @@ package br.com.rsinet.hub_TDD.cenarios;
 import java.io.IOException;
 import java.net.MalformedURLException;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.AssertJUnit;
 import org.testng.ITestResult;
@@ -16,19 +14,19 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
-import br.com.rsinet.hub_TDD.pageObject.DriverManager;
-import br.com.rsinet.hub_TDD.pageObject.ElementoCelular;
-import br.com.rsinet.hub_TDD.pageObject.PageCadastro;
-import br.com.rsinet.hub_TDD.pageObject.PageHome;
 import br.com.rsinet.hub_TDD.report.Reports;
+import br.com.rsinet.hub_TDD.screenObject.DriverManager;
+import br.com.rsinet.hub_TDD.screenObject.ElementoCelular;
+import br.com.rsinet.hub_TDD.screenObject.ScreenCadastro;
+import br.com.rsinet.hub_TDD.screenObject.ScreenHome;
 
 public class Cadastro {
 	private DriverManager driverManager;
 	private ElementoCelular celular;
-	private PageCadastro cadastro;
+	private ScreenCadastro cadastro;
 	private WebDriverWait wait;
 	private int linha;
-	private PageHome home;
+	private ScreenHome home;
 	private ExtentReports extent;
 	private ExtentTest test;
 
@@ -42,9 +40,9 @@ public class Cadastro {
 		driverManager = new DriverManager();
 
 		wait = new WebDriverWait(driverManager.getDriver(), 10);
-		cadastro = new PageCadastro(driverManager.getDriver());
+		cadastro = new ScreenCadastro(driverManager.getDriver());
 		celular = new ElementoCelular(driverManager.getDriver());
-		home = new PageHome(driverManager.getDriver());
+		home = new ScreenHome(driverManager.getDriver());
 	}
 
 	@Test
@@ -65,11 +63,8 @@ public class Cadastro {
 		celular.clickEnter();
 		cadastro.paisClick();
 
-		wait.until(ExpectedConditions.visibilityOf(driverManager.getDriver().findElement(By.xpath(
-				"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]"))));
-		celular.arrastarTelaParaBaixo();
-		celular.arrastarTelaParaBaixo();
-		cadastro.nomePaisClick();
+		cadastro.esperarPais();
+		celular.procuraTexto(linha, 11);
 
 		cadastro.estadoClick();
 		cadastro.preencherStado(linha);
@@ -81,7 +76,7 @@ public class Cadastro {
 		celular.clickEnter();
 		celular.arrastarTelaParaBaixo();
 		cadastro.botaoRegistro();
-		Thread.sleep(2000);
+		home.esperaPhone();
 		home.clickMenu();
 		AssertJUnit.assertEquals(cadastro.getUsuario(linha), cadastro.setAtual());
 	}
@@ -103,11 +98,8 @@ public class Cadastro {
 		celular.clickEnter();
 		cadastro.paisClick();
 
-		wait.until(ExpectedConditions.visibilityOf(driverManager.getDriver().findElement(By.xpath(
-				"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]"))));
-		celular.arrastarTelaParaBaixo();
-		celular.arrastarTelaParaBaixo();
-		cadastro.nomePaisClick();
+		cadastro.esperarPais();
+		celular.procuraTexto(linha, 11);
 
 		cadastro.estadoClick();
 		cadastro.preencherStado(linha);

@@ -1,4 +1,4 @@
-package br.com.rsinet.hub_TDD.pageObject;
+package br.com.rsinet.hub_TDD.screenObject;
 
 import org.openqa.selenium.By;
 
@@ -6,11 +6,15 @@ import br.com.rsinet.hub_TDD.excel.ExcelUtils;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 
-public class PageProdutos {
+public class ScreenProdutos {
 	private AndroidDriver<MobileElement> driver;
 
-	public PageProdutos(AndroidDriver<MobileElement> driver) {
+	public ScreenProdutos(AndroidDriver<MobileElement> driver) {
 		this.driver = driver;
+	}
+
+	public void esperarFiltro() {
+		driver.findElement(By.id("com.Advantage.aShopping:id/imageViewProduct"));
 	}
 
 	public void filtroClick() {

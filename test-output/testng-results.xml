@@ -1,136 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Test - Suite" duration-ms="155689" started-at="2020-02-12T13:55:23 BRST" finished-at="2020-02-12T13:57:59 BRST">
+  <suite name="Default suite" duration-ms="77653" started-at="2020-02-12T16:16:28 BRST" finished-at="2020-02-12T16:17:46 BRST">
     <groups>
     </groups>
-    <test name="Tools Qa" duration-ms="155689" started-at="2020-02-12T13:55:23 BRST" finished-at="2020-02-12T13:57:59 BRST">
-      <class name="br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome">
-        <test-method status="PASS" signature="msd()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome@1877ab81]" name="msd" is-config="true" duration-ms="1" started-at="2020-02-12T13:55:23 BRST" finished-at="2020-02-12T13:55:23 BRST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- msd -->
-        <test-method status="PASS" signature="inicio()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome@1877ab81]" name="inicio" is-config="true" duration-ms="8717" started-at="2020-02-12T13:56:43 BRST" finished-at="2020-02-12T13:56:51 BRST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inicio -->
-        <test-method status="PASS" signature="pesquisaComFalha()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome@1877ab81]" name="pesquisaComFalha" duration-ms="12259" started-at="2020-02-12T13:56:51 BRST" finished-at="2020-02-12T13:57:03 BRST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pesquisaComFalha -->
-        <test-method status="PASS" signature="finalizando(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome@1877ab81]" name="finalizando" is-config="true" duration-ms="936" started-at="2020-02-12T13:57:03 BRST" finished-at="2020-02-12T13:57:04 BRST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=pesquisaComFalha status=SUCCESS method=PesquisaPelaHome.pesquisaComFalha()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome@1877ab81] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finalizando -->
-        <test-method status="PASS" signature="inicio()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome@1877ab81]" name="inicio" is-config="true" duration-ms="9067" started-at="2020-02-12T13:57:04 BRST" finished-at="2020-02-12T13:57:13 BRST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inicio -->
-        <test-method status="PASS" signature="pesquisaComSucesso()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome@1877ab81]" name="pesquisaComSucesso" duration-ms="11520" started-at="2020-02-12T13:57:13 BRST" finished-at="2020-02-12T13:57:25 BRST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pesquisaComSucesso -->
-        <test-method status="PASS" signature="finalizando(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome@1877ab81]" name="finalizando" is-config="true" duration-ms="1193" started-at="2020-02-12T13:57:25 BRST" finished-at="2020-02-12T13:57:26 BRST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=pesquisaComSucesso status=SUCCESS method=PesquisaPelaHome.pesquisaComSucesso()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome@1877ab81] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finalizando -->
-      </class> <!-- br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome -->
-      <class name="br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa">
-        <test-method status="PASS" signature="msd()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa@305fd85d]" name="msd" is-config="true" duration-ms="1" started-at="2020-02-12T13:55:23 BRST" finished-at="2020-02-12T13:55:23 BRST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- msd -->
-        <test-method status="PASS" signature="inicio()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa@305fd85d]" name="inicio" is-config="true" duration-ms="9219" started-at="2020-02-12T13:57:26 BRST" finished-at="2020-02-12T13:57:35 BRST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inicio -->
-        <test-method status="PASS" signature="pesquisaComFalha()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa@305fd85d]" name="pesquisaComFalha" duration-ms="3397" started-at="2020-02-12T13:57:35 BRST" finished-at="2020-02-12T13:57:39 BRST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pesquisaComFalha -->
-        <test-method status="PASS" signature="finalizando(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa@305fd85d]" name="finalizando" is-config="true" duration-ms="1464" started-at="2020-02-12T13:57:39 BRST" finished-at="2020-02-12T13:57:40 BRST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=pesquisaComFalha status=SUCCESS method=PesquisaPelaLupa.pesquisaComFalha()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa@305fd85d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finalizando -->
-        <test-method status="PASS" signature="inicio()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa@305fd85d]" name="inicio" is-config="true" duration-ms="8934" started-at="2020-02-12T13:57:40 BRST" finished-at="2020-02-12T13:57:49 BRST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inicio -->
-        <test-method status="PASS" signature="pesquisaComSucesso()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa@305fd85d]" name="pesquisaComSucesso" duration-ms="8579" started-at="2020-02-12T13:57:49 BRST" finished-at="2020-02-12T13:57:58 BRST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pesquisaComSucesso -->
-        <test-method status="PASS" signature="finalizando(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa@305fd85d]" name="finalizando" is-config="true" duration-ms="1182" started-at="2020-02-12T13:57:58 BRST" finished-at="2020-02-12T13:57:59 BRST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=pesquisaComSucesso status=SUCCESS method=PesquisaPelaLupa.pesquisaComSucesso()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa@305fd85d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finalizando -->
-      </class> <!-- br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa -->
+    <test name="Default test" duration-ms="77653" started-at="2020-02-12T16:16:28 BRST" finished-at="2020-02-12T16:17:46 BRST">
       <class name="br.com.rsinet.hub_TDD.cenarios.Cadastro">
-        <test-method status="PASS" signature="msd()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@4232c52b]" name="msd" is-config="true" duration-ms="116" started-at="2020-02-12T13:55:23 BRST" finished-at="2020-02-12T13:55:23 BRST">
+        <test-method status="PASS" signature="msd()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@2781e022]" name="msd" is-config="true" duration-ms="92" started-at="2020-02-12T16:16:28 BRST" finished-at="2020-02-12T16:16:29 BRST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- msd -->
-        <test-method status="PASS" signature="inicio()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@4232c52b]" name="inicio" is-config="true" duration-ms="11406" started-at="2020-02-12T13:55:23 BRST" finished-at="2020-02-12T13:55:35 BRST">
+        <test-method status="PASS" signature="inicio()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@2781e022]" name="inicio" is-config="true" duration-ms="9744" started-at="2020-02-12T16:16:29 BRST" finished-at="2020-02-12T16:16:38 BRST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicio -->
-        <test-method status="PASS" signature="cadastrando()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@4232c52b]" name="cadastrando" duration-ms="28959" started-at="2020-02-12T13:55:35 BRST" finished-at="2020-02-12T13:56:04 BRST">
+        <test-method status="FAIL" signature="cadastrando()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@2781e022]" name="cadastrando" duration-ms="27784" started-at="2020-02-12T16:16:38 BRST" finished-at="2020-02-12T16:17:06 BRST">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[java.lang.IllegalArgumentException: Unable to compile '//android.view.ViewGroup[@content-desc=\"Home Page\"]/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[2]/android.widget.ImageView'. See Cause.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RSI1526', ip: '10.1.0.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.Advantage.aShopping.Spl..., appPackage: com.Advantage.aShopping, databaseEnabled: false, desired: {appActivity: com.Advantage.aShopping.Spl..., appPackage: com.Advantage.aShopping, deviceName: AOSP on IA Emulator, platformName: android, platformVersion: 9, udid: emulator-5554}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: f84d45dd-058e-45d0-8cf1-400205958bab
+*** Element info: {Using=xpath, value=//android.view.ViewGroup[@content-desc=\"Home Page\"]/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[2]/android.widget.ImageView}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: java.lang.IllegalArgumentException: Unable to compile '//android.view.ViewGroup[@content-desc=\"Home Page\"]/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[2]/android.widget.ImageView'. See Cause.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RSI1526', ip: '10.1.0.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.Advantage.aShopping.Spl..., appPackage: com.Advantage.aShopping, databaseEnabled: false, desired: {appActivity: com.Advantage.aShopping.Spl..., appPackage: com.Advantage.aShopping, deviceName: AOSP on IA Emulator, platformName: android, platformVersion: 9, udid: emulator-5554}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: f84d45dd-058e-45d0-8cf1-400205958bab
+*** Element info: {Using=xpath, value=//android.view.ViewGroup[@content-desc=\"Home Page\"]/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[2]/android.widget.ImageView}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at br.com.rsinet.hub_TDD.screenObject.ScreenHome.esperaPhone(ScreenHome.java:23)
+at br.com.rsinet.hub_TDD.cenarios.Cadastro.cadastrando(Cadastro.java:79)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cadastrando -->
-        <test-method status="PASS" signature="fim(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@4232c52b]" name="fim" is-config="true" duration-ms="1061" started-at="2020-02-12T13:56:04 BRST" finished-at="2020-02-12T13:56:05 BRST">
+        <test-method status="PASS" signature="fim(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@2781e022]" name="fim" is-config="true" duration-ms="1821" started-at="2020-02-12T16:17:06 BRST" finished-at="2020-02-12T16:17:08 BRST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=cadastrando status=SUCCESS method=Cadastro.cadastrando()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@4232c52b] output={null}]]]>
+                <![CDATA[[TestResult name=cadastrando status=FAILURE method=Cadastro.cadastrando()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@2781e022] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fim -->
-        <test-method status="PASS" signature="inicio()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@4232c52b]" name="inicio" is-config="true" duration-ms="9227" started-at="2020-02-12T13:56:05 BRST" finished-at="2020-02-12T13:56:14 BRST">
+        <test-method status="PASS" signature="inicio()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@2781e022]" name="inicio" is-config="true" duration-ms="8242" started-at="2020-02-12T16:17:08 BRST" finished-at="2020-02-12T16:17:16 BRST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicio -->
-        <test-method status="PASS" signature="falhaNoCadastro()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@4232c52b]" name="falhaNoCadastro" duration-ms="27411" started-at="2020-02-12T13:56:14 BRST" finished-at="2020-02-12T13:56:42 BRST">
+        <test-method status="PASS" signature="falhaNoCadastro()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@2781e022]" name="falhaNoCadastro" duration-ms="28633" started-at="2020-02-12T16:17:16 BRST" finished-at="2020-02-12T16:17:45 BRST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- falhaNoCadastro -->
-        <test-method status="PASS" signature="fim(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@4232c52b]" name="fim" is-config="true" duration-ms="989" started-at="2020-02-12T13:56:42 BRST" finished-at="2020-02-12T13:56:43 BRST">
+        <test-method status="PASS" signature="fim(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@2781e022]" name="fim" is-config="true" duration-ms="1305" started-at="2020-02-12T16:17:45 BRST" finished-at="2020-02-12T16:17:46 BRST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=falhaNoCadastro status=SUCCESS method=Cadastro.falhaNoCadastro()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@4232c52b] output={null}]]]>
+                <![CDATA[[TestResult name=falhaNoCadastro status=SUCCESS method=Cadastro.falhaNoCadastro()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@2781e022] output={null}]]]>
               </value>
             </param>
           </params>
@@ -138,6 +129,6 @@
           </reporter-output>
         </test-method> <!-- fim -->
       </class> <!-- br.com.rsinet.hub_TDD.cenarios.Cadastro -->
-    </test> <!-- Tools Qa -->
-  </suite> <!-- Test - Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

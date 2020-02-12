@@ -1,20 +1,29 @@
-package br.com.rsinet.hub_TDD.pageObject;
+package br.com.rsinet.hub_TDD.screenObject;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import br.com.rsinet.hub_TDD.excel.Constant;
 import br.com.rsinet.hub_TDD.excel.ExcelUtils;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 
-public class PageCadastro {
+public class ScreenCadastro {
 	private static String usuario;
 	private static String atual;
 	private AndroidDriver<MobileElement> driver;
+	private WebDriverWait wait;
 
-	public PageCadastro(AndroidDriver<MobileElement> driver) throws Exception {
+	public ScreenCadastro(AndroidDriver<MobileElement> driver) throws Exception {
 		ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData, "Planilha1");
 		this.driver = driver;
+		wait = new WebDriverWait(driver, 10);
+	}
+
+	public void esperarPais() {
+		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath(
+				"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]"))));
 	}
 
 	public void preencherUsuario(int linha) throws Exception {

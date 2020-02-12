@@ -14,16 +14,16 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
-import br.com.rsinet.hub_TDD.pageObject.DriverManager;
-import br.com.rsinet.hub_TDD.pageObject.ElementoCelular;
-import br.com.rsinet.hub_TDD.pageObject.PageHome;
-import br.com.rsinet.hub_TDD.pageObject.PageProdutos;
 import br.com.rsinet.hub_TDD.report.Reports;
+import br.com.rsinet.hub_TDD.screenObject.DriverManager;
+import br.com.rsinet.hub_TDD.screenObject.ElementoCelular;
+import br.com.rsinet.hub_TDD.screenObject.ScreenHome;
+import br.com.rsinet.hub_TDD.screenObject.ScreenProdutos;
 
 public class PesquisaPelaHome {
 	private ElementoCelular celular;
-	private PageHome home;
-	private PageProdutos produto;
+	private ScreenHome home;
+	private ScreenProdutos produto;
 	private int coluna = 7;
 	private int linha = 0;
 	private String expectativa = "- No results -";
@@ -41,9 +41,9 @@ public class PesquisaPelaHome {
 	public void inicio() throws Exception {
 		driverManager = new DriverManager();
 
-		home = new PageHome(driverManager.getDriver());
+		home = new ScreenHome(driverManager.getDriver());
 		celular = new ElementoCelular(driverManager.getDriver());
-		produto = new PageProdutos(driverManager.getDriver());
+		produto = new ScreenProdutos(driverManager.getDriver());
 	}
 
 	@Test
@@ -59,7 +59,7 @@ public class PesquisaPelaHome {
 	public void pesquisaComFalha() throws Exception {
 		test = Reports.createTest("FalhaNaPesquisaPelaHome");
 		home.laptopsClick();
-		Thread.sleep(2000);
+		produto.esperarFiltro();
 		produto.filtroClick();
 		produto.sistemClick();
 		produto.chromeOSClick();

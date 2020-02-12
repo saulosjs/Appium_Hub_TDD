@@ -1,4 +1,4 @@
-package br.com.rsinet.hub_TDD.pageObject;
+package br.com.rsinet.hub_TDD.screenObject;
 
 import br.com.rsinet.hub_TDD.excel.Constant;
 import br.com.rsinet.hub_TDD.excel.ExcelUtils;

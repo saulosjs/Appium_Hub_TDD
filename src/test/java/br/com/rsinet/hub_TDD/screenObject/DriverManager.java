@@ -1,4 +1,4 @@
-package br.com.rsinet.hub_TDD.pageObject;
+package br.com.rsinet.hub_TDD.screenObject;
 
 import java.net.MalformedURLException;
 import java.net.URL;
