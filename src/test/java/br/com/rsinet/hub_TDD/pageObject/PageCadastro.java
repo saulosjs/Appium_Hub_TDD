@@ -29,6 +29,12 @@ public class PageCadastro {
 				.sendKeys(ExcelUtils.getCellData(linha, 1));
 	}
 
+	public void clickEmail() throws Exception {
+		driver.findElement(By.xpath(
+				"//android.view.ViewGroup[@content-desc=\"Home Page\"]/android.widget.LinearLayout[2]/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout/android.widget.EditText"))
+				.click();
+	}
+
 	public void preencherSenha(int linha) throws Exception {
 		driver.findElement(By.xpath(
 				"//android.view.ViewGroup[@content-desc=\"Home Page\"]/android.widget.LinearLayout[2]/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.widget.RelativeLayout/android.widget.EditText"))

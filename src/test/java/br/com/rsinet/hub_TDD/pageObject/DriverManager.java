@@ -13,10 +13,6 @@ public class DriverManager {
 	private AndroidDriver<MobileElement> driver;
 	private DesiredCapabilities caps;
 
-	public DriverManager(AndroidDriver<MobileElement> driver) {
-		this.driver = driver;
-	}
-
 	public AndroidDriver<MobileElement> getDriver() throws MalformedURLException {
 		if (driver == null)
 			driver = createDriver();

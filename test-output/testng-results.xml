@@ -1,25 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37924" started-at="2020-02-11T19:43:24 BRST" finished-at="2020-02-11T19:44:02 BRST">
+  <suite name="Test - Suite" duration-ms="155689" started-at="2020-02-12T13:55:23 BRST" finished-at="2020-02-12T13:57:59 BRST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37924" started-at="2020-02-11T19:43:24 BRST" finished-at="2020-02-11T19:44:02 BRST">
-      <class name="br.com.rsinet.hub_TDD.cenarios.Cadastro">
-        <test-method status="PASS" signature="inicio()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@5e5d171f]" name="inicio" is-config="true" duration-ms="7942" started-at="2020-02-11T19:43:24 BRST" finished-at="2020-02-11T19:43:32 BRST">
+    <test name="Tools Qa" duration-ms="155689" started-at="2020-02-12T13:55:23 BRST" finished-at="2020-02-12T13:57:59 BRST">
+      <class name="br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome">
+        <test-method status="PASS" signature="msd()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome@1877ab81]" name="msd" is-config="true" duration-ms="1" started-at="2020-02-12T13:55:23 BRST" finished-at="2020-02-12T13:55:23 BRST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- msd -->
+        <test-method status="PASS" signature="inicio()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome@1877ab81]" name="inicio" is-config="true" duration-ms="8717" started-at="2020-02-12T13:56:43 BRST" finished-at="2020-02-12T13:56:51 BRST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicio -->
-        <test-method status="PASS" signature="cadastrando()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@5e5d171f]" name="cadastrando" duration-ms="29347" started-at="2020-02-11T19:43:32 BRST" finished-at="2020-02-11T19:44:02 BRST">
+        <test-method status="PASS" signature="pesquisaComFalha()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome@1877ab81]" name="pesquisaComFalha" duration-ms="12259" started-at="2020-02-12T13:56:51 BRST" finished-at="2020-02-12T13:57:03 BRST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pesquisaComFalha -->
+        <test-method status="PASS" signature="finalizando(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome@1877ab81]" name="finalizando" is-config="true" duration-ms="936" started-at="2020-02-12T13:57:03 BRST" finished-at="2020-02-12T13:57:04 BRST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pesquisaComFalha status=SUCCESS method=PesquisaPelaHome.pesquisaComFalha()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome@1877ab81] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizando -->
+        <test-method status="PASS" signature="inicio()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome@1877ab81]" name="inicio" is-config="true" duration-ms="9067" started-at="2020-02-12T13:57:04 BRST" finished-at="2020-02-12T13:57:13 BRST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicio -->
+        <test-method status="PASS" signature="pesquisaComSucesso()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome@1877ab81]" name="pesquisaComSucesso" duration-ms="11520" started-at="2020-02-12T13:57:13 BRST" finished-at="2020-02-12T13:57:25 BRST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pesquisaComSucesso -->
+        <test-method status="PASS" signature="finalizando(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome@1877ab81]" name="finalizando" is-config="true" duration-ms="1193" started-at="2020-02-12T13:57:25 BRST" finished-at="2020-02-12T13:57:26 BRST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pesquisaComSucesso status=SUCCESS method=PesquisaPelaHome.pesquisaComSucesso()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome@1877ab81] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizando -->
+      </class> <!-- br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome -->
+      <class name="br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa">
+        <test-method status="PASS" signature="msd()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa@305fd85d]" name="msd" is-config="true" duration-ms="1" started-at="2020-02-12T13:55:23 BRST" finished-at="2020-02-12T13:55:23 BRST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- msd -->
+        <test-method status="PASS" signature="inicio()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa@305fd85d]" name="inicio" is-config="true" duration-ms="9219" started-at="2020-02-12T13:57:26 BRST" finished-at="2020-02-12T13:57:35 BRST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicio -->
+        <test-method status="PASS" signature="pesquisaComFalha()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa@305fd85d]" name="pesquisaComFalha" duration-ms="3397" started-at="2020-02-12T13:57:35 BRST" finished-at="2020-02-12T13:57:39 BRST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pesquisaComFalha -->
+        <test-method status="PASS" signature="finalizando(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa@305fd85d]" name="finalizando" is-config="true" duration-ms="1464" started-at="2020-02-12T13:57:39 BRST" finished-at="2020-02-12T13:57:40 BRST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pesquisaComFalha status=SUCCESS method=PesquisaPelaLupa.pesquisaComFalha()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa@305fd85d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizando -->
+        <test-method status="PASS" signature="inicio()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa@305fd85d]" name="inicio" is-config="true" duration-ms="8934" started-at="2020-02-12T13:57:40 BRST" finished-at="2020-02-12T13:57:49 BRST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicio -->
+        <test-method status="PASS" signature="pesquisaComSucesso()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa@305fd85d]" name="pesquisaComSucesso" duration-ms="8579" started-at="2020-02-12T13:57:49 BRST" finished-at="2020-02-12T13:57:58 BRST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pesquisaComSucesso -->
+        <test-method status="PASS" signature="finalizando(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa@305fd85d]" name="finalizando" is-config="true" duration-ms="1182" started-at="2020-02-12T13:57:58 BRST" finished-at="2020-02-12T13:57:59 BRST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pesquisaComSucesso status=SUCCESS method=PesquisaPelaLupa.pesquisaComSucesso()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa@305fd85d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizando -->
+      </class> <!-- br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa -->
+      <class name="br.com.rsinet.hub_TDD.cenarios.Cadastro">
+        <test-method status="PASS" signature="msd()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@4232c52b]" name="msd" is-config="true" duration-ms="116" started-at="2020-02-12T13:55:23 BRST" finished-at="2020-02-12T13:55:23 BRST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- msd -->
+        <test-method status="PASS" signature="inicio()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@4232c52b]" name="inicio" is-config="true" duration-ms="11406" started-at="2020-02-12T13:55:23 BRST" finished-at="2020-02-12T13:55:35 BRST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicio -->
+        <test-method status="PASS" signature="cadastrando()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@4232c52b]" name="cadastrando" duration-ms="28959" started-at="2020-02-12T13:55:35 BRST" finished-at="2020-02-12T13:56:04 BRST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cadastrando -->
-        <test-method status="PASS" signature="fim()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@5e5d171f]" name="fim" is-config="true" duration-ms="603" started-at="2020-02-11T19:44:02 BRST" finished-at="2020-02-11T19:44:02 BRST">
+        <test-method status="PASS" signature="fim(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@4232c52b]" name="fim" is-config="true" duration-ms="1061" started-at="2020-02-12T13:56:04 BRST" finished-at="2020-02-12T13:56:05 BRST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cadastrando status=SUCCESS method=Cadastro.cadastrando()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@4232c52b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fim -->
+        <test-method status="PASS" signature="inicio()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@4232c52b]" name="inicio" is-config="true" duration-ms="9227" started-at="2020-02-12T13:56:05 BRST" finished-at="2020-02-12T13:56:14 BRST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicio -->
+        <test-method status="PASS" signature="falhaNoCadastro()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@4232c52b]" name="falhaNoCadastro" duration-ms="27411" started-at="2020-02-12T13:56:14 BRST" finished-at="2020-02-12T13:56:42 BRST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- falhaNoCadastro -->
+        <test-method status="PASS" signature="fim(org.testng.ITestResult)[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@4232c52b]" name="fim" is-config="true" duration-ms="989" started-at="2020-02-12T13:56:42 BRST" finished-at="2020-02-12T13:56:43 BRST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=falhaNoCadastro status=SUCCESS method=Cadastro.falhaNoCadastro()[pri:0, instance:br.com.rsinet.hub_TDD.cenarios.Cadastro@4232c52b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fim -->
       </class> <!-- br.com.rsinet.hub_TDD.cenarios.Cadastro -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Tools Qa -->
+  </suite> <!-- Test - Suite -->
 </testng-results>

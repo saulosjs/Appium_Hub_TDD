@@ -3,7 +3,7 @@
 	<classes>
 		<class name="br.com.rsinet.hub_TDD.cenarios.Cadastro" />
 		<class name="br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome" />
-		<class name="br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa2" />
+		<class name="br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa" />
 	</classes>
 </test>
 </suite>
