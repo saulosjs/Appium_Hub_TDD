@@ -5,9 +5,7 @@
     <classes>
       <class name="br.com.rsinet.hub_TDD.cenarios.Cadastro">
         <methods>
-          <include name="falhaNoCadastro"/>
           <include name="cadastrando"/>
-          <include name="report"/>
           <include name="inicio"/>
           <include name="fim"/>
         </methods>

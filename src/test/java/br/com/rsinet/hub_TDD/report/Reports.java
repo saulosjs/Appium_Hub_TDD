@@ -2,13 +2,15 @@ package br.com.rsinet.hub_TDD.report;
 
 import java.io.IOException;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidDriver;
 
 public class Reports {
 
@@ -35,7 +37,8 @@ public class Reports {
 
 	}
 
-	public static void statusReported(ExtentTest test, ITestResult result, WebDriver driver) throws IOException {
+	public static void statusReported(ExtentTest test, ITestResult result, AndroidDriver<MobileElement> driver)
+			throws IOException {
 
 		String screenPath = ScreenShot.gerarScreenShot(driver, result.getName());
 

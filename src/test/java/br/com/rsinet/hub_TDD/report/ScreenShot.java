@@ -8,7 +8,9 @@ import java.util.Date;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
+
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidDriver;
 
 public class ScreenShot {
 
@@ -16,7 +18,7 @@ public class ScreenShot {
 		return new SimpleDateFormat("dd_MM_yyyy HH.mm.ss").format(new Date());
 	}
 
-	public static String gerarScreenShot(WebDriver driver, String nome) {
+	public static String gerarScreenShot(AndroidDriver<MobileElement> driver, String nome) {
 		File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String destino = System.getProperty("user.dir") + "/target/reportScreenshot/" + nome + "-" + getTimeStamp()
 				+ ".png";

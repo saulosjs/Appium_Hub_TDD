@@ -1,7 +1,6 @@
 package br.com.rsinet.hub_TDD.pageObject;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
 import br.com.rsinet.hub_TDD.excel.Constant;
 import br.com.rsinet.hub_TDD.excel.ExcelUtils;
@@ -16,15 +15,15 @@ public class PageHome {
 		ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData, "Planilha2");
 	}
 
-	public static void clickMenu(AndroidDriver<WebElement> driver) {
+	public void clickMenu() {
 		driver.findElement(By.id("com.Advantage.aShopping:id/imageViewMenu")).click();
 	}
 
-	public static void clickLogin(AndroidDriver<WebElement> driver) {
+	public void clickLogin() {
 		driver.findElement(By.id("com.Advantage.aShopping:id/textViewMenuUser")).click();
 	}
 
-	public static void clickNovoCadastro(AndroidDriver<WebElement> driver) {
+	public void clickNovoCadastro() {
 		driver.findElement(By.id("com.Advantage.aShopping:id/textViewDontHaveAnAccount")).click();
 	}
 

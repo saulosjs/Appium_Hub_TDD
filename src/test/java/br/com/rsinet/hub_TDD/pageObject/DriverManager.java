@@ -40,8 +40,9 @@ public class DriverManager {
 	}
 
 	public void fecharDriver() {
-		if (driver != null)
-			driver.quit();
+		if (driver == null)
+			throw new NullPointerException("Driver null");
+		driver.quit();
 	}
 
 }

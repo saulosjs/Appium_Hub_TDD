@@ -1,9 +1,9 @@
 <suite name= "Test - Suite">
 <test name="Tools Qa">
 	<classes>
-		<class name="br.comr.rsinet.hub_TDD.Test.Adv_CriaConta" />
-		<class name="br.comr.rsinet.hub_TDD.Test.Adv_PesquisarNaHome" />
-		<class name="br.comr.rsinet.hub_TDD.Test.Adv_PesquisarNaLupa" />
+		<class name="br.com.rsinet.hub_TDD.cenarios.Cadastro" />
+		<class name="br.com.rsinet.hub_TDD.cenarios.PesquisaPelaHome" />
+		<class name="br.com.rsinet.hub_TDD.cenarios.PesquisaPelaLupa2" />
 	</classes>
 </test>
 </suite>
